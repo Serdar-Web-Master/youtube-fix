@@ -1,0 +1,58 @@
+
+.wrapper {
+   background-color: rgb(196, 196, 196);
+   height: 2000px;
+}
+
+.container {
+   background-color: rgb(196, 196, 196);
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px 0px 20px 0px;
+}
+.logo {
+   display: flex;
+   align-items: center;
+}
+.form {
+   display: flex;
+
+}
+.a {
+  display: flex;
+}
+ /* Carousel */
+.carousel-inner {
+   max-height: 300px;
+}
+.haker {
+   border: 1px solid rgb(196, 196, 196);;
+   border-radius: 50%;
+}
+
+/* Rubriki */
+.rubriki {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+/* Cards */
+
+.main {
+   background-color: #fff;
+}
+
+.cards__field {
+   display: flex;
+   /* justify-content: space-between; */
+   flex-wrap: wrap;
+   align-items: center;
+}
+.card {
+   margin: 20px;
+  
+}
