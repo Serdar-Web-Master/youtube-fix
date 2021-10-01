@@ -17,6 +17,9 @@
    margin: 20px 0px 20px 0px;
 }
 
+.logo-header {
+   display: flex;
+}
 .logo {
    display: flex;
    align-items: center;
@@ -100,7 +103,7 @@ padding: 0px 10px 0px 0px;
 /* Rubriki */
 .rubriki {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    margin-bottom: 20px;
 }
 @media (max-width: 420px) {
@@ -119,6 +122,7 @@ padding: 0px 10px 0px 0px;
 
 .cards__field {
    display: flex;
+   justify-content: space-between;
    flex-wrap: wrap;
    align-items: center;
 }
