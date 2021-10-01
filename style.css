@@ -50,6 +50,14 @@ padding: 0px 10px 0px 0px;
       justify-content: space-between;
       margin: 20px 0px 20px 5px;
    }
+   .logo-header {
+      display: flex;
+   }
+      .form-control {
+         text-align: center;
+         height: 40px;
+     
+   }
 }
 
 /* Intro !!!!!!!!!!!!!!!!! */
@@ -60,7 +68,7 @@ padding: 0px 10px 0px 0px;
    display: flex;
    align-items: center;
    justify-content: center;
-   color: rgb(0, 132, 255);
+   color: rgb(41 255 2);
 }
 
 
@@ -71,11 +79,36 @@ padding: 0px 10px 0px 0px;
    margin: 0px 10px 0px 0px;
 }
 
+@media (max-width: 420px) {
+   
+      .btn {
+         text-align: center;
+         height: 40px;
+     
+   }
+   .logo {
+     justify-content: center;
+   }
+   .form-midle {
+      display: flex;
+      justify-content: center;
+   }
+  
+  
+}
+
 /* Rubriki */
 .rubriki {
    display: flex;
    justify-content: space-between;
    margin-bottom: 20px;
+}
+@media (max-width: 420px) {
+   .rubriki {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+   }
 }
 
 /* Cards */
@@ -86,11 +119,20 @@ padding: 0px 10px 0px 0px;
 
 .cards__field {
    display: flex;
-   /* justify-content: space-between; */
    flex-wrap: wrap;
    align-items: center;
 }
 .card {
    margin: 20px;
   
+}
+@media (max-width: 420px) {
+   .cards__field {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   /* .card {
+      width: 16rem;
+   } */
 }
