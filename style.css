@@ -63,7 +63,6 @@ padding: 0px 10px 0px 0px;
 /* Intro !!!!!!!!!!!!!!!!! */
 .intro {
   height: 300px;
-  /* width: 700px; */
    background: url('car1.jpg') 50%/cover no-repeat;
    display: flex;
    align-items: center;
@@ -132,7 +131,5 @@ padding: 0px 10px 0px 0px;
       justify-content: center;
       align-items: center;
    }
-   /* .card {
-      width: 16rem;
-   } */
+  
 }
