@@ -2,10 +2,13 @@
 .wrapper {
    background-color: rgb(196, 196, 196);
    height: 2000px;
+   max-width: 1200px;
+   margin: 0 auto;
 }
 
 .container {
    background-color: rgb(196, 196, 196);
+ 
 }
 
 .header {
@@ -14,10 +17,42 @@
    margin: 20px 0px 20px 0px;
 }
 
+.logo {
+   display: flex;
+   align-items: center;
+}
 .logo__img {
 padding: 0px 10px 0px 0px;
 }
 
+.form {
+   display: flex;
+   /* align-items: center; */
+  margin: 8px 5px 0px 0px;
+}
+.a {
+  display: flex;
+/* align-items: center; */
+}
+.form-control {
+   text-align: center;
+  max-height: 40px;
+}
+.btn {
+   max-height: 40px;
+   margin: 0px 0px 0px 10px;
+   padding: 0px 30px 0px 30px;
+}
+
+@media (max-width: 320px) {
+   .header {
+      display: block;
+      justify-content: space-between;
+      margin: 20px 0px 20px 5px;
+   }
+}
+
+/* Intro !!!!!!!!!!!!!!!!! */
 .intro {
   height: 300px;
   /* width: 700px; */
@@ -28,21 +63,7 @@ padding: 0px 10px 0px 0px;
    color: rgb(0, 132, 255);
 }
 
-.logo {
-   display: flex;
-   align-items: center;
-}
-.form {
-   display: flex;
 
-}
-.a {
-  display: flex;
-}
-.btn {
-   margin: 0px 0px 0px 10px;
-   padding: 0px 30px 0px 30px;
-}
 
 .haker {
    border: 1px solid rgb(196, 196, 196);;
