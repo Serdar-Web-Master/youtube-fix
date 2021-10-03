@@ -19,6 +19,7 @@
 
 .logo-header {
    display: flex;
+   margin-left: 15px;
 }
 .logo {
    display: flex;
@@ -56,6 +57,7 @@ padding: 0px 10px 0px 0px;
    }
    .logo-header {
       display: flex;
+      margin-left: 0px;
    }
       .form-control {
          text-align: center;
@@ -73,6 +75,27 @@ padding: 0px 10px 0px 0px;
    justify-content: center;
    color: rgb(41 255 2);
    padding: 15px;
+}
+.intro__text {
+   text-align: center;
+}
+.intro h1 {
+   font-size: 60px;
+   font-weight: 700;
+}
+.intro h2 {
+   font-size: 30px;
+   font-weight: 700;
+}
+@media (max-width: 420px) {
+   .intro h1 {
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .intro h2 {
+      font-size: 20px;
+      font-weight: 700;
+   }
 }
 /* Midle !!!!!!!!!!!!! */
 .header-midle {
@@ -95,10 +118,11 @@ padding: 0px 10px 0px 0px;
    cursor: pointer;
    font-size: 20px;
    font-weight: bolder;
+   background-color: white;
 
 }
 .btn-midle:hover {
-   background-color: red;
+   background-color: rgb(255, 36, 36);
 }
 
 @media (max-width: 420px) {
@@ -136,6 +160,10 @@ padding: 0px 10px 0px 0px;
 .rubriki__item {
    cursor: pointer;
 }
+.rubriki__item:hover{
+   color: blueviolet;
+   text-decoration: underline;
+}
 @media (max-width: 420px) {
    .rubriki {
       display: flex;
@@ -152,26 +180,27 @@ padding: 0px 10px 0px 0px;
 
 .cards__field {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
    align-items: center;
 }
 .card {
    margin: 20px;
    border: 3px solid rgb(74 36 243);
-   /* position: relative; */
+   min-width: 300px;
+   max-width: 300px;
    min-height: 264px;
   
    
 }
 .card__img {
    display: block;
-   margin-left: 15px;
-   margin-top: 10px;
-   
+}
+.card-img-top {
+   width: 100%;
 }
 .card__play {
-   margin: -73px 0px 75px 81px;
+   margin: -66px 0px 75px 124px;
    opacity: .6;
    z-index: 1;
 }
@@ -181,6 +210,10 @@ width: 60px;
 
 .card-body {
    margin-left: 20px;
+}
+.card-title {
+   font-size: 20px;
+   margin: -30px 0px -5px 0px;
 }
 
 @media (max-width: 420px) {
