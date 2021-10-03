@@ -74,29 +74,53 @@ padding: 0px 10px 0px 0px;
    color: rgb(41 255 2);
    padding: 15px;
 }
-
-
-
+/* Midle !!!!!!!!!!!!! */
+.header-midle {
+   display: flex;
+   justify-content: space-around;
+}
 .haker {
    border: 1px solid rgb(196, 196, 196);;
    border-radius: 50%;
    margin: 0px 10px 0px 0px;
 }
+.form-midle {
+   display: flex;
+   align-items: center;
+}
+.btn-midle{
+   height: 60px;
+   /* width: 200px; */
+   max-width: 200px;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: bolder;
+
+}
+.btn-midle:hover {
+   background-color: red;
+}
 
 @media (max-width: 420px) {
-   
-      .btn {
-         text-align: center;
-         height: 40px;
-     
+   .header-midle {
+      display: block ;
    }
    .logo {
-     justify-content: center;
-   }
-   .form-midle {
+      justify-content: center;
+    }
+    .midle-pod {
+       margin-left: 20px;
+    }
+    .form-midle {
       display: flex;
       justify-content: center;
    }
+      .btn-midle {
+         text-align: center;
+         height: 40px;
+   }
+   
+   
   
   
 }
@@ -135,6 +159,8 @@ padding: 0px 10px 0px 0px;
 .card {
    margin: 20px;
    border: 3px solid rgb(74 36 243);
+   /* position: relative; */
+   min-height: 264px;
   
    
 }
@@ -144,6 +170,15 @@ padding: 0px 10px 0px 0px;
    margin-top: 10px;
    
 }
+.card__play {
+   margin: -73px 0px 75px 81px;
+   opacity: .6;
+   z-index: 1;
+}
+.card__play-img {
+width: 60px;
+}
+
 .card-body {
    margin-left: 20px;
 }
