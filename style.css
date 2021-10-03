@@ -123,12 +123,21 @@ padding: 0px 10px 0px 0px;
    background-color: rgb(255, 36, 36);
 }
 
+.logo-midle {
+   font-style: italic;
+   color: #4c56c5;
+}
+
 @media (max-width: 420px) {
    .header-midle {
       display: block ;
+      
    }
    .logo {
       justify-content: center;
+    }
+    .logo-midle {
+       font-style: italic;
     }
     .midle-pod {
        margin-left: 20px;
@@ -226,6 +235,11 @@ width: 60px;
       margin: 20px;
       border: 3px solid rgb(74 36 243);
       max-width: 300px;  
+   }
+   .card__play {
+      margin: -66px 0px 75px 120px;
+      opacity: .6;
+      z-index: 1;
    }
   
 }
