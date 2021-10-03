@@ -1,14 +1,12 @@
 
 .wrapper {
    background-color: rgb(196, 196, 196);
-   height: 2000px;
    max-width: 1200px;
    margin: 0 auto;
 }
 
 .container {
    background-color: rgb(196, 196, 196);
- 
 }
 
 .header {
@@ -159,6 +157,9 @@ padding: 0px 10px 0px 0px;
 }
 .rubriki__item {
    cursor: pointer;
+   font-size: 25px;
+   font-style: italic;
+   color: #3d6895;
 }
 .rubriki__item:hover{
    color: blueviolet;
@@ -168,7 +169,10 @@ padding: 0px 10px 0px 0px;
    .rubriki {
       display: flex;
       justify-content: space-around;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+   }
+   .rubriki__item {
+      font-size: 20px;
    }
 }
 
@@ -187,11 +191,7 @@ padding: 0px 10px 0px 0px;
 .card {
    margin: 20px;
    border: 3px solid rgb(74 36 243);
-   min-width: 300px;
-   max-width: 300px;
-   min-height: 264px;
-  
-   
+   max-width: 250px;  
 }
 .card__img {
    display: block;
@@ -200,7 +200,7 @@ padding: 0px 10px 0px 0px;
    width: 100%;
 }
 .card__play {
-   margin: -66px 0px 75px 124px;
+   margin: -66px 0px 75px 96px;
    opacity: .6;
    z-index: 1;
 }
@@ -221,6 +221,11 @@ width: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
+   }
+   .card {
+      margin: 20px;
+      border: 3px solid rgb(74 36 243);
+      max-width: 300px;  
    }
   
 }
