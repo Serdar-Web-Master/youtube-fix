@@ -174,7 +174,7 @@ padding: 0px 10px 0px 0px;
    color: blueviolet;
    text-decoration: underline;
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
    .rubriki {
       display: flex;
       justify-content: space-around;
