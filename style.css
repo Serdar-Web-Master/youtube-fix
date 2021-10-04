@@ -238,8 +238,5 @@ width: 60px;
    }
    .card__play {
       margin: -66px 0px 75px 120px;
-      opacity: .6;
-      z-index: 1;
    }
-  
 }
