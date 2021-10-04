@@ -174,14 +174,14 @@ padding: 0px 10px 0px 0px;
    color: blueviolet;
    text-decoration: underline;
 }
-@media (max-width: 450px) {
+@media (max-width: 420px) {
    .rubriki {
       display: flex;
       justify-content: space-around;
       margin-bottom: 5px;
    }
    .rubriki__item {
-      font-size: 20px;
+      font-size: 17px;
    }
 }
 
